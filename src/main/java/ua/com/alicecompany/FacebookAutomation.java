@@ -58,6 +58,18 @@ public class FacebookAutomation {
             WebElement loginButton = driver.findElement(By.name("login"));
             loginButton.click();
 
+            // Check for potential reCAPTCHA
+            try {
+                WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+                if (wait.until(ExpectedConditions.presenceOfElementLocated(By.className("g-recaptcha"))) != null) {
+                    logger.info("reCAPTCHA detected. Please solve it manually.");
+                    // Wait for user to solve reCAPTCHA
+                    Thread.sleep(60000); // Adjust the time as needed
+                }
+            } catch (Exception e) {
+                logger.info("No reCAPTCHA detected, proceeding.");
+            }
+
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
             wait.until(ExpectedConditions.urlContains("facebook.com"));
 

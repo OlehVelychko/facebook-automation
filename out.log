@@ -1,4 +1,5 @@
-2024-12-29 13:51:21 [main] INFO  u.c.alicecompany.FacebookAutomation - Starting the script...
-2024-12-29 13:51:28 [main] INFO  u.c.alicecompany.FacebookAutomation - Login successful. Current URL: https://www.facebook.com/
-2024-12-29 13:51:29 [main] INFO  u.c.alicecompany.FacebookAutomation - Profile photo URL: https://scontent-iev1-1.xx.fbcdn.net/v/t39.30808-1/275364631_107286211909689_8918446308616689312_n.jpg?stp=c0.0.1280.1280a_dst-jpg_s480x480_tt6&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=P2bh-0BjjO0Q7kNvgGJ5N55&_nc_zt=24&_nc_ht=scontent-iev1-1.xx&_nc_gid=AREdFHkrK01fFCECOrS5PJs&oh=00_AYBAj3g207Z4RarrKFDczlxqwvkXJz4nVEw9EV3ZrWnyvw&oe=6776F663
-2024-12-29 13:51:29 [main] INFO  u.c.alicecompany.FacebookAutomation - Profile photo downloaded successfully.
+2024-12-29 14:13:07 [main] INFO  u.c.alicecompany.FacebookAutomation - Starting the script...
+2024-12-29 14:13:39 [main] INFO  u.c.alicecompany.FacebookAutomation - No reCAPTCHA detected, proceeding.
+2024-12-29 14:13:39 [main] INFO  u.c.alicecompany.FacebookAutomation - Login successful. Current URL: https://www.facebook.com/
+2024-12-29 14:13:41 [main] INFO  u.c.alicecompany.FacebookAutomation - Profile photo URL: https://scontent-iev1-1.xx.fbcdn.net/v/t39.30808-1/275364631_107286211909689_8918446308616689312_n.jpg?stp=c0.0.1280.1280a_dst-jpg_s480x480_tt6&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=P2bh-0BjjO0Q7kNvgGJ5N55&_nc_zt=24&_nc_ht=scontent-iev1-1.xx&_nc_gid=Aw4QZM2GaeBnA_CnaT-qSjI&oh=00_AYCRxHjYd2EfLjv897V7clqT4_BBlR61y_nOociFdv_YfA&oe=6776F663
+2024-12-29 14:13:41 [main] INFO  u.c.alicecompany.FacebookAutomation - Profile photo downloaded successfully.
